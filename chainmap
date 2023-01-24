@@ -1,0 +1,7 @@
+from collections import ChainMap
+
+a = {1 :'virat',2 :'dhoni'}
+b = {'3 :sky', ' 4 : hardik'}
+
+a1 = ChainMap(a,b)
+print(a1)
